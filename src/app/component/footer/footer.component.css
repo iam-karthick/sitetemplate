@@ -1,0 +1,26 @@
+img{
+    height: auto;
+    width: 150px;
+    padding-top: 20px;
+}
+.footer-gray{
+    background-color: #090903;
+}
+.footer-gray a{
+    color: #F0EFEF;
+}
+.footer-gray a:hover{
+    background-color: red;
+}
+.copyright{
+    border-bottom: 36px solid;
+    border-top: 10px solid;
+}
+.font-color{
+    color: red;
+    font-size: 18px;    
+ 
+}
+.col-red{
+    background-color: #CC0000;
+}

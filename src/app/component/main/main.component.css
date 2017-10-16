@@ -1,0 +1,147 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+  }
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    height: 500px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 500px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: normal;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  @media (min-width: 992px) {
+    .featurette-heading {
+      margin-top: 120px;
+    }
+  }
+  .col-color{
+    background-color: #002331;
+    color:white;
+    padding: 50px;
+  }
+  /*button color*/
+  .btn-red{
+    background-color: red;
+    border-color: red;
+    border-radius: 0;
+    color: white;
+  }
+  .btn-red:hover{
+    color:white;
+    background-color: #AD0000;
+  }
+ .row-padding{
+   padding: 70px 0px 50px 0px;
+ }
+ .thumb-style{
+   border: 1px solid red;
+   padding: 40px 40px;
+ }
+ .thumb-style button{
+   border: 2px solid red;
+   border-radius: 0;
+   color: red;
+ }
+ .thumb-style button:hover{
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 0;
+}
+.row-color{
+  background-color: #252527;
+  color:white;
+  padding: 50px;
+}
+.text-float{
+  padding-top: 6%;
+  padding-left: 30%;
+  
+}
+.btn-transparant{
+  border: 1px solid white;
+  color: white;
+  background-color: #252527;
+  border-radius: 0;
+}
+.btn-transparant:hover{
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+  border-radius: 0;
+}
+.split-padding1{
+  padding: 205px 0px 0px 70px;
+}
+.split-padding2{
+  padding: 100px;
+}
+.correction{
+  background-color: gray;
+  border: 40px solid white;
+  color: white;
+}
